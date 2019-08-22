@@ -64,7 +64,7 @@ HAHConnect is available on CocoaPods. Simply add the following line to your podf
 
 platform :ios, '10.0'
 
-pod 'HAHConnect'
+pod 'HAHConnect-iOS', '0.0.1'
 ```
 
 ## Getting Started
@@ -96,8 +96,23 @@ let user: [String: Any] = [
 //Push Notification Deeplinking User Info will be passed if needed, in userInfo, else pass nil
 //let userInfo: [AnyHashable: Any] = ....
 
-let connect : HAHConnect = HAHConnect(configuration: configuration, user: user, userInfo: nil)
+let connect : HAHConnect = HAHConnect(configuration: configuration,
+                                              user: user,
+                                              userInfo: nil,
+                                              delegate: self)
 connect.startSDKHome(controller: self)
+
+
+extension ViewController : HAHConnectDelegate {
+    func HAHConnectInitialised() {
+        //print("HAHConnectInitialised is called")
+    }
+    
+    func HAHConnectDismissed() {
+        //print("HAHConnectDismissed is called")
+    }
+}
+
 
 Add following keys to Info.plist
 
