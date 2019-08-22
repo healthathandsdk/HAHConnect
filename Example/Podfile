@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HAHConnect_Example' do
+  pod 'HAHConnect', :path => '../'
+
+  target 'HAHConnect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
