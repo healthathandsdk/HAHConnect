@@ -96,6 +96,10 @@ let user: [String: Any] = [
 //Push Notification Deeplinking User Info will be passed if needed, in userInfo, else pass nil
 //let userInfo: [AnyHashable: Any] = ....
 
+//sandbox for development build
+//production for release build
+let configuration : Configuration = Configuration(environment: .production)
+
 let connect : HAHConnect = HAHConnect(configuration: configuration,
                                               user: user,
                                               userInfo: nil,
