@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
+    s.author           = { 'qazinaveed87' => 'qazi@nextgeni.net' }
 
     s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/968008173/hahconnect.zip?version=968008173' }
     s.vendored_frameworks = 'HAHConnect.framework'
@@ -66,6 +66,5 @@ Pod::Spec.new do |s|
     s.dependency 'TOCropViewController', '2.4.0'
     s.dependency 'Kingfisher', '5.4.0'
     s.dependency 'CleverTap-iOS-SDK', '3.7.2'
-
 
 end
