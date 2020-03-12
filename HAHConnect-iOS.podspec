@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'HAHConnect'
-    s.version          = '0.0.1'
+    s.name             = 'HAHConnect-iOS'
+    s.version          = '0.0.2'
     s.summary          = 'Health at Hand’s mobile SDK project; known as HAH Connect to integrate HAH telehealth platform with native iOS and Android mobile apps.'
 
     # This description is used to generate tags and improve search results.
@@ -27,13 +27,15 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
 
-    s.source = { :http => 'https://hahliveimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/60550608/hahconnect.zip?version=60550608' }
+    s.source = { :http => 'https://hahliveimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/1069360990/hahconnect.zip?version=1069360990' }
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
 
 
     s.swift_version = '4.2'
     s.ios.deployment_target = '10.0'
+    
+
 
     # s.resource_bundles = {
     #   'HAHConnect' => ['HAHConnect/Assets/*.png']
