@@ -127,6 +127,10 @@ Add following keys to Info.plist
 </string>
 <key>NSMicrophoneUsageDescription</key>
 <string>For you to speak to the doctor we need to access your microphone</string>
+<key>CleverTapToken </key>
+<string>64a-616</string>
+<key>CleverTapAccountID </key>
+<string>6Z6-746-K85Z</string>
 
 ```
 
