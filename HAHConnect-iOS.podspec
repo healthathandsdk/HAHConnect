@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
 
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
+    s.author           = { 'health-at-hand' => 'support@myhealthathand.com' }
 
-    s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/807702753/hahconnect.zip?version=807702753' }
+    s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/896124521/hahconnect.zip?version=896124521' }
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
 
