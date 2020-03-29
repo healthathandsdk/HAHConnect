@@ -64,7 +64,7 @@ HAHConnect is available on CocoaPods. Simply add the following line to your podf
 
 platform :ios, '10.0'
 
-pod 'HAHConnect-iOS', '0.0.1'
+pod 'HAHConnect-iOS', '0.0.5'
 ```
 
 ## Getting Started
@@ -127,6 +127,10 @@ Add following keys to Info.plist
 </string>
 <key>NSMicrophoneUsageDescription</key>
 <string>For you to speak to the doctor we need to access your microphone</string>
+<key>CleverTapToken </key>
+<string>64a-616</string>
+<key>CleverTapAccountID </key>
+<string>6Z6-746-K85Z</string>
 
 ```
 
