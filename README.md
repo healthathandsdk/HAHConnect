@@ -64,7 +64,7 @@ HAHConnect is available on CocoaPods. Simply add the following line to your podf
 
 platform :ios, '10.0'
 
-pod 'HAHConnect-iOS', '0.0.5'
+pod 'HAHConnect-iOS', '0.0.6'
 ```
 
 ## Getting Started
