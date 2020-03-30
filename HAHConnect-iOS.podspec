@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HAHConnect-iOS'
-    s.version          = '0.0.6'
+    s.version          = '1.0.1'
     s.summary          = 'Health at Hand’s mobile SDK project; known as HAH Connect to integrate HAH telehealth platform with native iOS and Android mobile apps.'
 
     # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
 
-    s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/605458347/hahconnect.zip?version=605458347' }
+    s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/830825093/hahconnect.zip?version=830825093' }
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
 
@@ -66,6 +66,8 @@ Pod::Spec.new do |s|
     s.dependency 'TOCropViewController', '2.4.0'
     s.dependency 'Kingfisher', '5.4.0'
     s.dependency 'CleverTap-iOS-SDK', '3.7.2'
+    s.dependency 'UICircularProgressRing', '6.5.0'
+
 
 
 
