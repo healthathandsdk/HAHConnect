@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HAHConnect-iOS'
-    s.version          = '1.0.1'
+    s.version          = '0.1.7'
     s.summary          = 'Health at Hand’s mobile SDK project; known as HAH Connect to integrate HAH telehealth platform with native iOS and Android mobile apps.'
 
     # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
 
-    s.source = { :http => 'https://hahstageimages.s3-eu-west-1.amazonaws.com/hah_cloud/zip/830825093/hahconnect.zip?version=830825093' }
+    s.source = { :http => 'https://hahstageimages.blob.core.windows.net/hahstageimages/hah_cloud/zip/1031929865/hahconnect.zip?version=1031929865'}
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
 
@@ -43,6 +43,7 @@ Pod::Spec.new do |s|
 
     # s.public_header_files = 'Pod/Classes/**/*.h'
 
+
     s.dependency 'WebRTC', '63.11.20455'
     s.dependency 'MDWamp', '2.2.4'
     s.dependency 'CocoaLumberjack/Swift', '3.5.1'
@@ -56,19 +57,22 @@ Pod::Spec.new do |s|
     s.dependency 'SwiftyJSON', '4.2.0'
     s.dependency 'Disk', '0.4.0'
     s.dependency 'SwiftMessages', '6.0.2'
+    s.dependency 'MOLH', '1.1.2'
 
-    s.dependency 'FirebaseMLVisionTextModel', '0.15.0'
     s.dependency 'EasyTipView', '2.0.1'
     s.dependency 'SwiftDate', '6.0.1'
 
     s.dependency 'ISPageControl', '0.1.0'
     s.dependency 'WeScan', '1.1.0'
-    s.dependency 'TOCropViewController', '2.4.0'
+    s.dependency 'TOCropViewController', '2.5.2'
     s.dependency 'Kingfisher', '5.4.0'
-    s.dependency 'CleverTap-iOS-SDK', '3.7.2'
     s.dependency 'UICircularProgressRing', '6.5.0'
-
-
+    s.dependency 'ActionSheetPicker-3.0','2.4.2'
+    s.dependency 'Caishen', '2.2.1'
+    s.dependency 'CardIODynamic', '5.4.1'
+    s.dependency 'CheckoutKit', '3.0.6'
+    s.dependency 'Then', '2.6.0'
+    s.dependency 'Validator', '3.2.1'
 
 
 end
