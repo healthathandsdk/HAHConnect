@@ -131,8 +131,15 @@ Add following keys to Info.plist
 <string>64a-616</string>
 <key>CleverTapAccountID </key>
 <string>6Z6-746-K85Z</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>We would like to use your Location</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>We would like to use your Location</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We would like to use your Location</string>
 
-```
+
+
 
 ## NOTE:
 
